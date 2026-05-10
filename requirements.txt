@@ -1,0 +1,13 @@
+# Core
+requests>=2.31.0
+python-dotenv>=1.0.0
+
+# Web
+flask>=3.0.0
+
+# Deriv WebSocket (live data source)
+websocket-client>=1.7.0
+
+# Optional: real WebSocket server for /ws/candles endpoint
+# If not installed, the endpoint falls back to REST polling.
+# simple-websocket>=1.0.0
